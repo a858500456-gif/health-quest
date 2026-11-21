@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>健康小知識讀書站</title>
+<meta name="description" content="用一般新聞與衛教文章整理的健康小知識,每章有重點、名詞與小測驗。">
+<link rel="stylesheet" href="assets/fonts/huninn/400.css">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <a class="logo" href="#home">🌱 健康小知識讀書站</a>
+      <span class="tag">一般衛教資訊</span>
+      <button id="theme" class="ghost" aria-label="切換深色模式">🌓</button>
+    </div>
+    <nav id="chap" class="chap" aria-label="章節"></nav>
+  </div>
+</header>
+<div id="scroller"><main class="wrap" id="app"></main>
+<footer class="wrap foot">
+  <p>一般衛教資訊,不能取代醫師診斷;有疾病或特殊狀況請諮詢醫療人員。</p>
+  <p>內容只整理公開頁面的連結、來源與自己的重點,不收錄網頁全文。</p>
+</footer></div>
+
+<!-- 章節資料:新增章節時,在這裡加一行 script(順序即章節順序) -->
+<script src="chapters/sleep.js"></script>
+<script src="chapters/diet.js"></script>
+<script src="chapters/water.js"></script>
+<script src="chapters/move.js"></script>
+<script src="chapters/eyes.js"></script>
+<script src="chapters/mind.js"></script>
+<script src="chapters/flu.js"></script>
+<!-- 章節資料結束 -->
+
+<script src="assets/katex/katex.min.js"></script>
+<script src="assets/katex/contrib/auto-render.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
